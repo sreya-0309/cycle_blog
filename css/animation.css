@@ -1,0 +1,21 @@
+@keyframes sliders{
+    0%{
+        top:0px;
+    
+    }
+    25%{
+        top:-500px;
+    }
+    50%{
+        top:-1000px;
+    }
+    75%{
+        top:-1500px;
+    }
+    100%{
+        top:0px;
+    }
+    
+
+
+}

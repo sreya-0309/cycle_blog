@@ -1,0 +1,85 @@
+@media screen and (max-width: 800px) {
+  body {
+    width: 100%;
+  }
+  .sec1 {
+    font-size: 2vw;
+  }
+  .menu-box {
+    flex-direction: column;
+  }
+  .menu {
+    font-size: 3vw;
+  }
+  .menu-list {
+    padding-right: 0;
+    padding-bottom: 5px;
+  }
+  .one{
+    margin:0 0
+  }
+  .one h1 {
+    font-size: 5vw;
+    width: 100%;
+
+    margin: 30px auto;
+  }
+  .card-box {
+    width: 90vw;
+    margin:20  auto;
+  }
+  .card h3{
+    font-size: 3vw;
+  }
+  .text{
+    font-size:2vw;
+  }
+  .mainfoot {
+   
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+}
+.col{
+    display: flex;
+  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.mainfoot .menu-list-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.col-2 h3, .col-3 h3, .col-4 h3 {
+  margin-bottom: 4px;
+  font-size: 3.5vw;
+}
+
+.copyright {
+    
+    flex-direction: column-reverse;
+    margin-top: 2rem;
+}
+.copyright p {
+    width: 100%;
+    font-size: 2vw;
+   
+}
+.s-icon li {
+    margin: 15px;
+
+}
+.menu-list li a:hover {
+  
+  font-size: 3.2vw;
+
+}
+.menu-list-footer li a{
+  font-size:2.5vw;
+}
+.menu-list-footer li a:hover{
+  font-size:2.7vw;
+}
+}
